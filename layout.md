@@ -3,3 +3,4 @@ section_Concept_and_dates_The__.tex
 section_Team_subsection_Local_team__.tex
 section_Venue_We_plan_on__.tex
 section_Travel_subsection_Airports_and__.tex
+section_Accommodation_A_O_the__.tex
