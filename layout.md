@@ -1,9 +1,8 @@
-untitled.tex
-section_Concept_and_dates_The__.tex
-section_Team_subsection_Local_team__.tex
-section_Venue_We_plan_on__.tex
-section_Travel_subsection_Airports_and__.tex
-section_Accommodation_A_O_the__.tex
-section_Dining_subsection_Breakfast_There__.tex
-section_Budget_section_Bibliograpyh_and__.tex
-section_Bibliograpyh_and_credits__.tex
+introduction.tex
+concept.tex
+team.tex
+venue.tex
+travel.tex
+accomodation.tex
+dinging.tex
+budget.tex

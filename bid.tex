@@ -1,10 +1,10 @@
-\documentclass[parskip=half,final,oneside,a4paper,pdftex]{scrartcl}
+\documentclass[parskip=half,final,oneside,a4paper]{scrartcl}
 
 \usepackage[final]{microtype}
 \usepackage{lmodern}
 \usepackage{tikz}
 \usepackage{graphicx}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{xcolor}
 \usepackage{moresize}
@@ -78,54 +78,21 @@
 
 \newpage
 
-\input{images/map/map.tex}
+%\input{images/map/map.tex}
 
-\section{Budget}
+%%%%%%%%%%%%%%%%%%%%%%%%
 
-\sisetup{
-table-figures-integer = 0,
-table-figures-decimal = 0,
-negative-color=red,
-table-text-alignment=right,
-table-number-alignment=right,
-table-figures-integer=5,
-table-figures-decimal=2,
-}
-
-\begin{tabularx}{\linewidth}{XSSS}
-   & {Best Case} & {Expected} & {Worst Case} \\
-  \hline\hline
-Income \hspace*{1em}  &  &  &  \\
-\hspace*{1em} Donations at Registration  & 9000,00 & 6125,00 & 3750,00 \\
-\hspace*{1em} Other Donations  &  &  &  \\
-\hspace*{1em} Sponsorship  & 45000,00 & 35000,00 & 30000,00 \\
-\hspace*{1em} Merchandise  & 2000,00 & 1500,00 & 1000,00 \\
-\hspace*{1em} Services (e.g. Canteen)  &  &  &  \\
-\hspace*{1em} Google Travel Sponsorship  & 4500,00 & 0,00 & 0,00 \\[1ex]
-Expenses \hspace*{1em}  &  &  &  \\
-\hspace*{1em} Stationary  &  &  &  \\
-\hspace*{1em} liability Insurance  & -150,00 & -200,00 & -300,00 \\
-\hspace*{1em} Lanyards  & 0,00 & 0,00 & 0,00 \\
-\hspace*{1em} Video and Live Streaming  &  &  &  \\
-\hspace*{1em} \hspace*{1em} Travel and Accomodation & -175,00 & -300,00 & -450,00 \\
-\hspace*{1em} \hspace*{1em} Shipping & -15,00 & -30,00 & -50,00 \\
-\hspace*{1em} Travel Sponsorship Flights & -25000,00 & -30000,00 & -35000,00 \\
-\hspace*{1em} \hspace*{1em} Accomodation & -2750,00 & -4500,00 & -7800,00 \\
-\hspace*{1em} Venue for core days  & 0,00 & -4500,00 & -12000,00 \\
-\hspace*{1em} Venue for BoF  & 0,00 & 0,00 & 0,00 \\
-\hspace*{1em} Social Events  &  &  &  \\
-\hspace*{1em} \hspace*{1em} Z10 Bar Evening with free beer & -900,00 & -1050,00 & -1200,00 \\
-\hspace*{1em} \hspace*{1em} Picknick & -250,00 & -350,00 & -500,00 \\
-\hspace*{1em} \hspace*{1em} Soccer Pit Rental & 0,00 & -75,00 & -150,00 \\
-\hspace*{1em} Misc  &  &  &  \\
-\hspace*{1em} \hspace*{1em} Speaker Gifts & -100,00 & -300,00 & -500,00 \\
-\hspace*{1em} \hspace*{1em} KVV tickets for everyone & -500,00 & -650,00 & -900,00 \\
-\hspace*{1em} \hspace*{1em} Car Rentals & -300,00 & -800,00 & -800,00 \\\hline
-Sum \hspace*{1em}  & 30360,00 & -130,00 & -24900,00 \\
-
-\end{tabularx}
+\input{introduction}
+\input{concept}
+\input{team}
+\input{venue}
+\input{travel}
+\input{accommodation}
+\input{dining}
+\input{budget}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%
 
   \section{Images}
   \begin{enumerate}
