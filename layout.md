@@ -4,5 +4,5 @@ concept.tex
 team.tex
 travel.tex
 accomodation.tex
-dinging.tex
+dining.tex
 budget.tex
