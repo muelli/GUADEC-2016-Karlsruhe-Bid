@@ -3,6 +3,6 @@ venue.tex
 concept.tex
 team.tex
 travel.tex
-accomodation.tex
+accommodation.tex
 dining.tex
 budget.tex
