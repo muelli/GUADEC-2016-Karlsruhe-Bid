@@ -1,2 +1,11 @@
 bid.*
 !bid.tex
+*.aux
+*.blg
+*.bbl
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+authorea_paper.tex
+authorea_paper.pdf
