@@ -1,8 +1,9 @@
 introduction.tex
 venue.tex
 concept.tex
-team.tex
+social.tex
 travel.tex
 accommodation.tex
 dining.tex
+team.tex
 budget.tex
