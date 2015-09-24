@@ -1,0 +1,67 @@
+\documentclass[parskip=half,final,oneside,a4paper]{scrartcl}
+
+\usepackage[final]{microtype}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{marvosym}
+\DeclareUnicodeCharacter{20AC}{\EUR{}}
+\usepackage{xcolor}
+\usepackage{moresize}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{multicol}
+
+\usepackage{inputx}
+\inputpaths{..}
+\graphicspath{..}
+
+\DeclareSIUnit{\euro}{\text{\EUR{}}}
+
+\usetikzlibrary{calc,fit,backgrounds}
+
+\usepackage[disable,colorinlistoftodos]{todonotes}
+
+
+\usepackage[%
+        pdftitle={GUADEC 2016 Bid for Karlsruhe},
+        pdfauthor={},
+        pdfsubject={GUADEC 2016 Bid},
+        pdfkeywords={GUADEC, 2016, Bid},
+        bookmarksopen=true,
+        pdfpagemode=UseOutlines,
+        pdfdisplaydoctitle=true,
+        pdfview=FitH,
+        pdfpagelayout=TwoColumnRight,
+        pdflang=en,
+        breaklinks=true
+]{hyperref}
+
+
+\KOMAoptions{DIV=last}
+
+
+\author{Moira Schuller, Benjamin Berg, Tobias Müller, Markus Morhard}
+\title{2016 -- Bid Karlsruhe}
+
+\newcounter{imgnumber}
+\setcounter{imgnumber}{1}
+
+\makeatletter
+
+\def\imagecopyrights{}
+
+%\setlength{\parindent}{0pt}
+\newcommand\imgtitle[3]{ %
+  Image \#\theimgnumber{}, #2 %
+%
+  \g@addto@macro{\imagecopyrights}{\item #2, ©#1, #3}%
+%
+  \addtocounter{imgnumber}{1}%
+}
+
+\makeatother
+
+\graphicspath{../}
