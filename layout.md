@@ -5,6 +5,6 @@ social.tex
 travel.tex
 accommodation.tex
 dining.tex
-section_Sponsors_This_section_describes__.tex
+sponsors.tex
 team.tex
 budget.tex
