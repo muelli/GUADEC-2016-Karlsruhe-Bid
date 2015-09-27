@@ -2,10 +2,79 @@
 
 \section{Accommodation}
 
-A\&O, the hostel situated next to the train station (and hence about 35 minutes by foot from the venue) costs about \SI{10}{\euro} for shared accommodation. Private dorms are also available for the cost of \SI{25}{\euro}. 
+\subsection{A\&O Hostel}
 
-As we would like to keep everyone located in the same area, we would like to host keynote speakers rooms at the hotel Ibis located just on the other side of the train station. 
-Alternatively, B\&B, another hostel, is offering rooms for about \SI{10}{\euro} per person sharing if need be. 
+\begin{labeling}{\bf Availability}
+  \item[\bf Location] Main Station
+  \item[\bf Price] ?
+  \item[\bf Breakfast] available for X
+  \item[\bf Availability] unknown
+\end{labeling}
+
+
+
+\subsection{Jugendherberge Karlsruhe}
+
+\begin{labeling}{\bf Availability}
+  \item[\bf Location] North West of City Center
+  \item[\bf Price] $\sim\SI{25}{\euro/{pP}}$
+  \item[\bf Breakfast] included
+  \item[\bf Availability] after 21st August
+\end{labeling}
+
+The youth hostel is located to the south west of the city center in the middle
+of one of the universities, the Hochschule Karlsruhe. The walk to the
+next tram station is about \SI{10}{\minute}. While this location would be
+pretty affordable, it is heavily used by groups during the summer, and will
+not be available to us from the start of Juli till the 21st of August.
+
+Note that it is mandatory to get half-board or a lunch pack for at least some
+of the days. The price mentioned here is an estimation that already includes
+the extra costs this incurs.
+
+\subsection{Gästehaus Kaiserpassage}
+
+\begin{tikzpicture}
+  \begin{scope}[on background layer]
+    \node[inner sep=0,outer sep=0] (main) {%
+      \includegraphics[width=0.5\linewidth]{images/accommodation/kaiserpassage/mehrbettzimmer-2.jpg}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (sub-1) at (main.north east) {%
+      \includegraphics[width=0.25\linewidth]{images/accommodation/kaiserpassage/einzelzimmer.jpg}%
+      \includegraphics[width=0.25\linewidth]{images/accommodation/kaiserpassage/terasse.jpg}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (sub-2) at (sub-1.south west) {%
+      \includegraphics[width=0.25\linewidth]{images/accommodation/kaiserpassage/gemeinschaftskueche.jpg}%
+      \includegraphics[width=0.25\linewidth]{images/accommodation/kaiserpassage/badezimmer.jpg}%
+    };
+  \end{scope}
+  \node[anchor=south west,color=black,xshift=1ex,yshift=1ex] (label) at (main.south west) {\imgtitle{Gästehaus Kaiserpassage}{Gästehaus Kaiserpassage}{non-free, permission to use for bid}};
+  \begin{scope}[on background layer]
+    \node[fit=(label),inner sep=0,outer sep=0,opacity=0.6,fill=white,rounded corners] {};
+  \end{scope}
+\end{tikzpicture}
+
+\begin{labeling}{\bf Availability}
+  \item[\bf Location] West of City Center
+  \item[\bf Price] \num{20} to \SI{22}{\euro/{pP}} in 4 bed room
+  \item[\bf Breakfast] –
+  \item[\bf Availability] available
+\end{labeling}
+
+This small hostel is located in the western part of the city center. The hostel
+does not offer breakfast or en-suit bathrooms. The hostel offers a shared
+kitchen.
+
+\subsection{B\&B Hotels}
+
+\begin{labeling}{\bf Availability}
+  \item[\bf Location] Main Station
+  \item[\bf Price] \SI{33}{\euro/{pP}} in 2 bed room, \SI{28.70}{\euro/{pP}} in 3 bed room
+  \item[\bf Breakfast] \SI{7,50}{\euro/{pP}}
+  \item[\bf Availability] available
+\end{labeling}
+
+This is a relatively cheap hotel just behind the main station.
 
 
 \newpage
