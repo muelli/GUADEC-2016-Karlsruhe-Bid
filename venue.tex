@@ -88,23 +88,37 @@ For two core days this venue could cost up to \SI{10000}{\euro}.
 
 \newpage
 
-\subsection{KIT south campus (University)}\smash{\rlap{%
-\begin{tikzpicture}
-  \pgfsetbaselinepointlater{\pgfpointanchor{baseline}{base}}
-    \node[inner sep=0,outer sep=0] at (0pt,0pt) {};
+
+\begin{tikzpicture}[remember picture,overlay]
   \begin{scope}[on background layer]
-    \node[inner sep=0,outer sep=0,anchor=north east] (main) at (\linewidth,0em) {%
-      \includegraphics[width=0.4\linewidth]{images/venues/kit/1050-1.jpg}%
-    };
-    \node[coordinate] (baseline) at ($(main.north) + (0, -3em)$) {};
+    \node[anchor=north west,outer sep=0,inner sep=0] (img) at (current page.north west) {\includegraphics[width=9.5cm,angle=-90]{images/venues/kit/kit-1.jpg}};
+    \node[anchor=north west,outer sep=0,inner sep=0,xshift=-1pt] (img-2) at (img.north east) {\includegraphics[height=9.5cm]{images/venues/kit/1050-1.jpg}};
   \end{scope}
-  \node[anchor=south west,color=black,xshift=1ex,yshift=1ex] (label) at (main.south west) {\rm\imgtitle{Benjamin Berg}{KIT Building 10.50}{CC BY-SA 4.0}};
+  \node[anchor=south west,color=black,xshift=1ex,yshift=1ex] (label) at (img.south west) {\imgtitle{Benjamin Berg}{KIT and Building 10.50}{CC BY-SA 4.0}};
   \begin{scope}[on background layer]
     \node[fit=(label),inner sep=0,outer sep=0,opacity=0.6,fill=white,rounded corners] {};
   \end{scope}
-\end{tikzpicture}%
-%
-}}
+\end{tikzpicture}
+
+\vspace*{6cm}
+
+\subsection{KIT south campus (University)}\smash{\rlap{%
+%\begin{tikzpicture}
+%  \pgfsetbaselinepointlater{\pgfpointanchor{baseline}{base}}
+%    \node[inner sep=0,outer sep=0] at (0pt,0pt) {};
+%  \begin{scope}[on background layer]
+%    \node[inner sep=0,outer sep=0,anchor=north east] (main) at (\linewidth,0em) {%
+%      \includegraphics[width=0.4\linewidth]{images/venues/kit/1050-1.jpg}%
+%    };
+%    \node[coordinate] (baseline) at ($(main.north) + (0, -3em)$) {};
+%  \end{scope}
+%  \node[anchor=south west,color=black,xshift=1ex,yshift=1ex] (label) at (main.south west) {\rm\imgtitle{Benjamin Berg}{KIT Building 10.50}{CC BY-SA 4.0}};
+%  \begin{scope}[on background layer]
+%    \node[fit=(label),inner sep=0,outer sep=0,opacity=0.6,fill=white,rounded corners] {};
+%  \end{scope}
+%\end{tikzpicture}%
+%%
+%}}
 
 \begin{description}
 \item[Location] excellent
