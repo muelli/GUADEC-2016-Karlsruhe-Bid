@@ -79,7 +79,24 @@ universities for the BoF sessions. As of now we have a reservation from the
 For two core days this venue could cost up to \SI{10000}{\euro}.
 
 
-\subsection{KIT south campus (University)}
+\subsection{KIT south campus (University)}\smash{\rlap{%
+\begin{tikzpicture}
+  \pgfsetbaselinepointlater{\pgfpointanchor{baseline}{base}}
+    \node[inner sep=0,outer sep=0] at (0pt,0pt) {};
+  \begin{scope}[on background layer]
+    \node[inner sep=0,outer sep=0,anchor=north east] (main) at (\linewidth,0em) {%
+      \includegraphics[width=0.4\linewidth]{images/venues/kit/1050-1.jpg}%
+    };
+    \node[coordinate] (baseline) at ($(main.north) + (0, -3em)$) {};
+  \end{scope}
+  \node[anchor=south west,color=black,xshift=1ex,yshift=1ex] (label) at (main.south west) {\rm\imgtitle{Benjamin Berg}{KIT Building 10.50}{CC BY-SA 4.0}};
+  \begin{scope}[on background layer]
+    \node[fit=(label),inner sep=0,outer sep=0,opacity=0.6,fill=white,rounded corners] {};
+  \end{scope}
+\end{tikzpicture}%
+%
+}}
+
 \begin{description}
 \item[Location] excellent
 \item[Price] unknown
@@ -94,7 +111,8 @@ distance from the venue.
 
 Even though the computer science department is supporting the idea of holding
 GUADEC at the KIT in Karlsruhe, we were not yet able to get a confirmation from
-the KIT administration about hosting GUADEC on the campus.
+the KIT administration. We are in contact with the administration and the
+information will be forwarded as soon as possible.
 
 \subsection{Karlshochschule}
 \begin{description}
@@ -104,6 +122,7 @@ the KIT administration about hosting GUADEC on the campus.
 \end{description}
 
 Another venue option we are currently in contact with is the centrally
-located Karlshochschule. Because of holidays we were unfortunately not able
-to get a commitment from them at this point.
+located Karlshochschule. There is to be interested to host GUADEC which
+might even happen in cooperation with the ZKM. However we were not yet able
+to aquire more information as there were delays due to holidays and other reasons.
 
