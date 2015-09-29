@@ -6,6 +6,32 @@ Baden-Württemberg (DHBW). We are however still in investigating other options
 at this point.
 
 \subsection{DHBW}
+
+\begin{tikzpicture}
+  \begin{scope}[on background layer]
+    \node[inner sep=0,outer sep=0] (main) {%
+      \includegraphics[width=0.5\linewidth]{images/venues/dhbw/P9280379}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (sub-1) at (main.north east) {%
+      \includegraphics[width=0.25\linewidth]{images/venues/dhbw/P9280376}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (sub-2) at (sub-1.south west) {%
+      \includegraphics[width=0.25\linewidth]{images/venues/dhbw/P9280388}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north east] (sub-3) at (main.north west) {%
+      \includegraphics[width=0.25\linewidth]{images/venues/dhbw/P9280383}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (sub-4) at (sub-3.south west) {%
+      \includegraphics[width=0.25\linewidth]{images/venues/dhbw/P9280386}%
+    };
+  \end{scope}
+  \node[anchor=south west,color=black,xshift=1ex,yshift=1ex] (label) at (sub-4.south west) {\imgtitle{Benjamin Berg}{Duale Hochschule Baden-Württemberg}{CC BY-SA 4.0}};
+  \begin{scope}[on background layer]
+    \node[fit=(label),inner sep=0,outer sep=0,opacity=0.6,fill=white,rounded corners] {};
+  \end{scope}
+\end{tikzpicture}
+
+
 \begin{description}
 \item[Location] off
 \item[Price] gratis
