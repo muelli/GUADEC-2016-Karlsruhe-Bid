@@ -1,0 +1,16 @@
+#!/bin/sh
+
+gs  -dNOPAUSE -dBATCH \
+	-sDEVICE=pdfwrite \
+	-dCompatibilityLevel=1.4 \
+	-dPDFSETTINGS=/printer \
+	-sOutputFile=bid-printer.pdf \
+	bid.pdf
+
+gs  -dNOPAUSE -dBATCH \
+	-sDEVICE=pdfwrite \
+	-dCompatibilityLevel=1.4 \
+	-dPDFSETTINGS=/screen \
+	-sOutputFile=bid-screen.pdf \
+	bid.pdf
+
