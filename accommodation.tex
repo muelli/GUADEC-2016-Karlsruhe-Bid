@@ -4,21 +4,61 @@
 
 \subsection{A\&O Hostel}
 
+\begin{tikzpicture}
+  \begin{scope}[on background layer]
+    \node[inner sep=0,outer sep=0] (main) {%
+      \includegraphics[width=0.25\linewidth]{images/accommodation/auo/bild2.jpg}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (img-2) at (main.north east) {%
+      \includegraphics[width=0.25\linewidth]{images/accommodation/auo/bild3.jpg}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (img-3) at (img-2.north east) {%
+      \includegraphics[width=0.25\linewidth]{images/accommodation/auo/bild7.jpg}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (img-4) at (img-3.north east) {%
+      \includegraphics[width=0.25\linewidth]{images/accommodation/auo/bild6.jpg}%
+    };
+  \end{scope}
+  \node[anchor=south west,color=black,xshift=1ex,yshift=1ex] (label) at (main.south west) {\imgtitle{A\&O HOTELS and HOSTELS Holding AG}{A\&O Hostel Karlsruhe}{non-free, permission to use for bid}};
+  \begin{scope}[on background layer]
+    \node[fit=(label),inner sep=0,outer sep=0,opacity=0.6,fill=white,rounded corners] {};
+  \end{scope}
+\end{tikzpicture}
+
+
 \begin{labeling}{\bf Availability}
   \item[\bf Location] Main Station
-  \item[\bf Price] ?
-  \item[\bf Breakfast] available for X
-  \item[\bf Availability] unknown
+  \item[\bf Price] single $\sim\SI{61.30}{/pP}$, 2-3 room $\sim\SI{35.30}{/pP}$, 4 room $\sim\SI{30.50}{/pP}$
+  \item[\bf Breakfast] included, mandatory
+  \item[\bf Availability] available
 \end{labeling}
 
-
+This hostel is located right at the main station, which is a little bit off from
+the city center. Breakfast is mandatory for group reserverations and the prices
+vary quite a lot between the different dates (the estimation is averaged for a
+five night stay).
 
 \subsection{Jugendherberge Karlsruhe}
+
+\begin{tikzpicture}
+  \begin{scope}[on background layer]
+    \node[inner sep=0,outer sep=0] (main) {%
+      \includegraphics[width=0.5\linewidth]{images/accommodation/jugendherberge/0.jpg}%
+    };
+    \node[inner sep=0,outer sep=0,anchor=north west] (img-2) at (main.north east) {%
+      \includegraphics[width=0.5\linewidth]{images/accommodation/jugendherberge/1.jpg}%
+    };
+  \end{scope}
+  \node[anchor=south west,color=black,xshift=1ex,yshift=1ex] (label) at (main.south west) {\imgtitle{}{Jugendherberge Karlsruhe}{non-free, permission to use for bid}};
+  \begin{scope}[on background layer]
+    \node[fit=(label),inner sep=0,outer sep=0,opacity=0.6,fill=white,rounded corners] {};
+  \end{scope}
+\end{tikzpicture}
 
 \begin{labeling}{\bf Availability}
   \item[\bf Location] North West of City Center
   \item[\bf Price] $\sim\SI{25}{\euro/{pP}}$
-  \item[\bf Breakfast] included
+  \item[\bf Breakfast] included, mandatory
   \item[\bf Availability] after 21st August
 \end{labeling}
 
@@ -57,7 +97,7 @@ the extra costs this incurs.
 \begin{labeling}{\bf Availability}
   \item[\bf Location] West of City Center
   \item[\bf Price] \num{20} to \SI{22}{\euro/{pP}} in 4 bed room
-  \item[\bf Breakfast] –
+  \item[\bf Breakfast] not available
   \item[\bf Availability] available
 \end{labeling}
 
